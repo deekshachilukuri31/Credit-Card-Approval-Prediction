@@ -15,3 +15,13 @@ The following are the algorithms used in this project:
 - Support Vector Machines
 - K-Nearest Neighbours
 - XG boost
+
+##Model Comparison Before and after SMOTE
+
+<img width="554" alt="image" src="https://user-images.githubusercontent.com/112019616/222548911-68d9dff8-6357-49ca-8a7a-eb1ffa365035.png">
+
+
+
+##Conclusion
+We have used 6 models to predict bad and a good client. Our data was imbalanced, so we performed SMOTE for oversampling and we then compared before and after sampling. We see before sampling Logistic regression, Random forest and Support Vector Machines had the best accuracy with 78.8%,  but after sampling it seemed to increase XGBoost accuracy by 9%, from 75.7% to 84.05%. 
+
