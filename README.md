@@ -23,5 +23,5 @@ The following are the algorithms used in this project:
 
 
 ## Conclusion
-We have used 6 models to predict bad and a good client. Our data was imbalanced, so we performed SMOTE for oversampling and we then compared before and after sampling. We see before sampling Logistic regression, Random forest and Support Vector Machines had the best accuracy with 78.8%,  but after sampling it seemed to increase XGBoost accuracy by 9%, from 75.7% to 84.05%. 
+In conclusion, the project aimed to predict whether a client is eligible for credit card approval or not, using various features. The project encountered an issue with imbalanced data and addressed it using SMOTE for oversampling. Six models were used to predict client eligibility, and the project found that XGBoost had the highest accuracy after oversampling. After performing cross-validation, logistic regression and random forest classification were found to have the highest accuracies. Overall, the project demonstrated that using various models and techniques can effectively predict credit card eligibility and address imbalanced data issues
 
