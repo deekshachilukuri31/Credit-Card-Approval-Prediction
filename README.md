@@ -11,7 +11,7 @@ The data used in the project was downloaded from Kaggle : https://www.kaggle.com
 The following are the algorithms used in this project:
 - Logistic Regression
 - Decision Tree Classification
--Random Forest Classification
--Support Vector Machines
--K-Nearest Neighbours
--XG boost
+- Random Forest Classification
+- Support Vector Machines
+- K-Nearest Neighbours
+- XG boost
